@@ -1,0 +1,20 @@
+modLoader="javafxmod"
+loaderVersion="[26,)"
+license="MIT"
+
+[[mods]]
+modId="strawbed"
+version="1.0.0"
+displayName="Straw Bed"
+displayURL="https://github.com/egiptoballespanol50-ui/StrawBed-26.1.2"
+logoFile="icon.png"
+creditText="Created with NeoForge"
+authors=["StrawBed Developer"]
+description="""Sleep through the night without setting your spawn point. The Straw Bed breaks after one use and works safely in the Nether and the End!"""
+
+[[dependencies.strawbed]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[26,)"
+    ordering="NONE"
+    side="BOTH"
